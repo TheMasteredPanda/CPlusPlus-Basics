@@ -49,7 +49,7 @@ void Rectangle::set_values(int x, int y) {
  * program this is what will be invoked no matter where it is located.
  * @return the exist process number.
  */
-int main() {
+int rec_main() {
     Rectangle rect, rectangle;
     rect.set_values(3, 4);
     rectangle.set_values(5,7);
