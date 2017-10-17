@@ -7,11 +7,18 @@
 
 #include <iostream>
 
-class test {
+/**
+ * Header file.
+ */
+
+/**
+ * Static method in Test class.
+ */
+class Test {
 public:
     static void test_method()
     {
-        std::cout << "Test";
+        std::cout << "Test" << std::endl;
     }
 };
 
